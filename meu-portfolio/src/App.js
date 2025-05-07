@@ -21,15 +21,15 @@ export default function App() {
             />
             <Card 
               title="Projeto 2" 
-              description="Descrição do projeto 2."
-              link="https://linkdoProjeto2.com"
-              image="https://via.placeholder.com/300x200?text=Projeto+2" // Exemplo de URL externa para imagem
+              description="Projeto de marketplace online, onde usuários podem comprar e vender produtos de forma simples e segura. Desenvolvido com React no frontend e Python no backend, garantindo uma experiência fluida e escalável."
+              link="https://github.com/Elias969/mercado"
+              image="/mercado.png" // Exemplo de URL externa para imagem
             />
             <Card 
               title="Projeto 3" 
-              description="Descrição do projeto 3."
-              link="https://linkdoProjeto3.com"
-              image="https://via.placeholder.com/300x200?text=Projeto+3" // Exemplo de URL externa para imagem
+              description="Projeto de um aplicação de gerenciamento escolar, onde contem professores, alunos e administradores. na aplicação tem varios opções como lançamento de notas, disciplinas, turmas, comunicados e alunos. "
+              link="https://github.com/Elias969/mediotec-escolarweb"
+              image="/escolar.png" // Exemplo de URL externa para imagem
             />
           </div>
         </section>
