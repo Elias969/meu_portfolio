@@ -9,7 +9,7 @@ export default function Hero() {
       </p>
       <div className="flex gap-4">
         <a href="#projects" className="bg-green-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-green-300 transition">Ver Projetos</a>
-        <a href="/Elias_Curriculo.pdf" download className="border border-green-400 px-6 py-2 rounded-lg hover:bg-green-400 hover:text-black transition">Download CV</a>
+        <a href="/Currículo Elias Ramos da Rocha.pdf" download className="border border-green-400 px-6 py-2 rounded-lg hover:bg-green-400 hover:text-black transition">Download CV</a>
       </div>
     </section>
   );
