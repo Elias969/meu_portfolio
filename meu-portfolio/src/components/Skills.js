@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaJava, FaGithub } from 'react-icons/fa';
-import { SiTailwindcss, SiMysql } from 'react-icons/si';
+import { SiTailwindcss, SiMysql, SiPython, SiPostgresql, SiCsharp, SiFirebase } from 'react-icons/si';
 
 const skills = [
   { icon: <FaReact size={30} />, name: 'React' },
@@ -11,6 +11,10 @@ const skills = [
   { icon: <FaJava size={30} />, name: 'Java' },
   { icon: <SiMysql size={30} />, name: 'MySQL' },
   { icon: <FaGithub size={30} />, name: 'GitHub' },
+  { icon: <SiPython size={30} />, name: 'Python' },
+  { icon: <SiPostgresql size={30} />, name: 'PostgreSQL' },
+  { icon: <SiCsharp size={30} />, name: 'C#' },
+  { icon: <SiFirebase size={30} />, name: 'Firebase' },
 ];
 
 export default function Skills() {
@@ -19,7 +23,10 @@ export default function Skills() {
       <h2 className="text-3xl font-bold mb-6 text-green-400">Minhas Habilidades</h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
         {skills.map((skill, index) => (
-          <div key={index} className="bg-[#112240] p-4 rounded-lg text-center hover:bg-green-400 hover:text-black transition">
+          <div
+            key={index}
+            className="bg-[#112240] p-4 rounded-lg text-center hover:bg-green-400 hover:text-black transition"
+          >
             <div className="flex justify-center mb-2">{skill.icon}</div>
             <p className="font-semibold">{skill.name}</p>
           </div>
