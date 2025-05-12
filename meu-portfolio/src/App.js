@@ -8,6 +8,7 @@ import Card from './components/Card';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackgroundAnimation from './components/BackgroundAnimation';
+import Feedback from './components/Feedback';
 
 export default function App() {
   return (
@@ -42,9 +43,11 @@ export default function App() {
             />
           </div>
         </section>
+         <Feedback />
         <Contact />
       </main>
       <Footer />
     </div>
+    
   );
 }

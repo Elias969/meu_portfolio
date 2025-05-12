@@ -6,3 +6,18 @@ body {
   background-color: #ffffff;
   font-family: 'Segoe UI', sans-serif;
 }
+/* index.css ou global.css */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll 25s linear infinite;
+}
