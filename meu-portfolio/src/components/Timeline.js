@@ -1,8 +1,8 @@
 import React from 'react';
 
 const timeline = [
-  { year: '2023', title: 'Início na programação', description: 'Comecei a estudar programação e lógica.' },
-  { year: '2024', title: 'Projetos pessoais', description: 'Desenvolvi sites como blogs, sistemas escolares e marketplace.' },
+  { year: '2020', title: 'Início na programação', description: 'Comecei a estudar programação e lógica.' },
+  { year: '2023', title: 'Projetos pessoais', description: 'Desenvolvi sites como blogs, sistemas escolares e marketplace.' },
   { year: '2025', title: 'Foco em backend', description: 'Estudando Spring Boot e aprofundando em arquitetura de APIs.' },
 ];
 
