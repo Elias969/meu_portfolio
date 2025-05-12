@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaJava, FaGithub } from 'react-icons/fa';
-import { SiTailwindcss, SiMysql, SiPython, SiPostgresql, SiCsharp, SiFirebase } from 'react-icons/si';
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaJava, FaGithub, FaCode } from 'react-icons/fa';
+import { SiTailwindcss, SiMysql, SiPython, SiPostgresql, SiFirebase } from 'react-icons/si';
 
 const skills = [
   { icon: <FaReact size={30} />, name: 'React' },
@@ -13,7 +13,7 @@ const skills = [
   { icon: <FaGithub size={30} />, name: 'GitHub' },
   { icon: <SiPython size={30} />, name: 'Python' },
   { icon: <SiPostgresql size={30} />, name: 'PostgreSQL' },
-  { icon: <SiCsharp size={30} />, name: 'C#' },
+  { icon: <FaCode size={30} />, name: 'C#' },
   { icon: <SiFirebase size={30} />, name: 'Firebase' },
 ];
 
