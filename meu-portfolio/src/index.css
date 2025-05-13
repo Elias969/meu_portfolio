@@ -15,9 +15,26 @@ body {
     transform: translateX(-100%);
   }
 }
-
 .animate-scroll {
-  display: inline-block;
-  white-space: nowrap;
-  animation: scroll 25s linear infinite;
+  animation: scroll 30s linear infinite;
 }
+
+@keyframes fadeInEmoji {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in-emoji {
+  animation: fadeInEmoji 1.5s ease forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

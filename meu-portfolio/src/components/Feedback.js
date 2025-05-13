@@ -42,6 +42,7 @@ export default function Feedback() {
     setNickname("");
     setMessage("");
   };
+  const emojis = ["💬", "✨", "🔥", "💡", "😄", "🚀", "🌟", "🎉"];
 
   return (
     <section id="feedbacks" className="mt-20">
@@ -68,17 +69,27 @@ export default function Feedback() {
         </button>
       </form>
 
-      <div className="overflow-hidden whitespace-nowrap mt-10">
-        <div className="animate-scroll inline-block">
-          {feedbacks.map((fb) => (
-            <span
-              key={fb.id}
-              className="mr-8 text-sm bg-white text-black px-3 py-1 rounded inline-block"
-            >
-              <strong>{fb.nickname}:</strong> {fb.message}
-            </span>
-          ))}
-        </div>
+       <div className="space-y-4 mt-10 overflow-hidden">
+        {[0, 1].map((row) => (
+          <div key={row} className="whitespace-nowrap animate-scroll">
+            {feedbacks
+  .filter((_, i) => i % 2 === row)
+  .map((fb) => {
+    const emoji = emojis[Math.floor(Math.random() * emojis.length)];
+    return (
+      <span
+        key={fb.id}
+        className="inline-block mr-6 text-sm bg-white text-black px-4 py-2 rounded shadow relative"
+      >
+        <strong>{fb.nickname}:</strong> {fb.message}
+        <span className="absolute top-0 right-0 translate-x-1/2 -translate-y-1/2 fade-in-emoji">
+  {emoji}
+</span>
+      </span>
+    );
+  })}
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ export default function About() {
         <img src="/elias.png" alt="Elias" className="w-40 h-40 rounded-full object-cover border-4 border-green-400" />
         <p className="text-lg text-gray-300 max-w-xl">
           Sou um estudante de Análise e Desenvolvimento de Sistemas apaixonado por tecnologia e inovação. Gosto de resolver problemas com código e transformar ideias em projetos reais.
-          Tenho experiência com desenvolvimento web usando React, JavaScript, HTML, CSS, Tailwind e também backend com Node.js e Spring Boot.
+          Tenho experiência com desenvolvimento web usando React, JavaScript, HTML, CSS, Tailwind e também backend com MySQL e Spring Boot.
         </p>
       </div>
     </section>
