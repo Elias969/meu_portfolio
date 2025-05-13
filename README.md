@@ -6,7 +6,7 @@ Este é meu portfólio pessoal desenvolvido com **React**, **Tailwind CSS** e **
 
 ## 🔗 Acesse Online
 
-🌐 [https://meu-portfolio.vercel.app](https://meu-portfolio.vercel.app)
+🌐 [https://eliasdev-portfolio.vercel.app/](https://eliasdev-portfolio.vercel.app/)
 
 ---
 
