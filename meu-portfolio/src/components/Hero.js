@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="flex flex-col items-center text-center py-20">
       <h1 className="text-5xl font-bold mb-4">Olá, eu sou Elias 👋</h1>
       <p className="text-xl text-gray-300 max-w-xl mb-6">
-        Desenvolvedor fullstack com foco em criar experiências sistemas modernos, rápidos e acessíveis. Apaixonado por tecnologia e soluções criativas.
+        Desenvolvedor fullstack com foco em criar experiências e sistemas modernos, rápidos e acessíveis. Apaixonado por tecnologia e soluções criativas.
       </p>
       <div className="flex gap-4">
         <a href="#projects" className="bg-green-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-green-300 transition">Ver Projetos</a>
