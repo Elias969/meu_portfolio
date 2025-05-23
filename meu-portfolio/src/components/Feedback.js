@@ -69,10 +69,12 @@ export default function Feedback() {
         </button>
       </form>
 
-      <div
-  className="space-y-4 mt-10 overflow-hidden"
-  onMouseEnter={() => setIsPaused(true)}
-  onMouseLeave={() => setIsPaused(false)}>
+        <div
+    className="space-y-4 mt-10 overflow-hidden"
+    onMouseEnter={() => setIsPaused(true)}
+    onMouseLeave={() => setIsPaused(false)}
+  >
+
         {[0, 1].map((row) => (
           <div key={row} className="whitespace-nowrap animate-scroll">
             {feedbacks
