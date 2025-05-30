@@ -41,6 +41,12 @@ export default function App() {
         link="https://github.com/Elias969/mediotec-escolarweb"
         image="/escolar.png"
       />
+      <Card 
+        title="Projeto 4" 
+        description="Website para um grupo de influenciadores de League of legends." 
+        link="https://ilha.vercel.app/"
+        image="/ilha.png"
+      />
     </div>
   </section>
   <Feedback />
