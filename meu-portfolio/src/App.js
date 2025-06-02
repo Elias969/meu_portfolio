@@ -50,7 +50,7 @@ export default function App() {
       <Card 
         title="Projeto 5" 
         description="Uma aplicação web completa para acompanhamento de fitness, dieta e exercícios, desenvolvida com React, TypeScript e várias bibliotecas modernas." 
-        link="https://ilha.vercel.app/"
+        link="https://github.com/Elias969/fitness-tracker"
         image="/fitness.png"
       />
     </div>
