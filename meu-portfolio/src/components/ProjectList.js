@@ -6,6 +6,7 @@ const projects = [
   { id: "p2", title: "Projeto 2", description: "Descrição breve do projeto 2." },
   { id: "p3", title: "Projeto 3", description: "Descrição breve do projeto 3." },
   { id: "p4", title: "Projeto 4", description: "Descrição breve do projeto 4." },
+  { id: "p5", title: "Projeto 5", description: "Descrição breve do projeto 5." }
 ];
 
 function ProjectList() {
