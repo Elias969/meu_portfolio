@@ -53,6 +53,12 @@ export default function App() {
         link="https://github.com/Elias969/fitness-tracker"
         image="/fitness.png"
       />
+      <Card 
+        title="Projeto 6" 
+        description="A Ponte conecta pequenos negócios que precisam de presença digital a alunos que querem transformar conhecimento em experiência real." 
+        link="https://ponte-psi.vercel.app/"
+        image="/fitness.png"
+      />
     </div>
   </section>
   <Feedback />
