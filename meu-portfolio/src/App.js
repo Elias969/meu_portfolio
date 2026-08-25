@@ -57,7 +57,7 @@ export default function App() {
         title="Projeto 6" 
         description="A Ponte conecta pequenos negócios que precisam de presença digital a alunos que querem transformar conhecimento em experiência real." 
         link="https://ponte-psi.vercel.app/"
-        image="/fitness.png"
+        image="/ponte.png"
       />
     </div>
   </section>
